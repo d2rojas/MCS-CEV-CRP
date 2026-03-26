@@ -1,0 +1,13 @@
+Parameter,Value,Unit,Description
+eta_ch_dch,0.95,,Charging/discharging efficiency of the MCS
+MCS_max,150.0,kWh,Maximum SOE of MCS's battery
+MCS_min,30.0,kWh,Minimum SOE of MCS's battery
+MCS_ini,120.0,kWh,Initial SOE of MCS's battery
+CH_MCS,100.0,kW,Charging power rate of MCSs
+DCH_MCS,100.0,kW,Discharging power rate of MCSs
+DCH_MCS_plug,50.0,kW,Discharging power rate of each plug mounted on MCSs
+C_MCS_plug,2,,Number of plugs on MCSs
+k_trv,0.5,kWh/mile,Energy consumed per mile during the travel of MCS
+delta_T,0.5,hour,Time interval
+rho_miss,100.0,$/kW,Penalty cost for missed work
+num_MCS,1,,Number of MCSs

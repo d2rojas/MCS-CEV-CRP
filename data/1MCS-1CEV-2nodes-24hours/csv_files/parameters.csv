@@ -1,0 +1,26 @@
+Parameter,Value,Unit,Description
+eta_ch,0.95,-,Charging efficiency
+eta_dch,0.95,-,Discharging efficiency
+B,1000,-,Large binary constant
+MCS_max,250,kWh,Maximum MCS energy capacity
+MCS_ini,200,kWh,Initial MCS energy level
+MCS_min,75,kWh,Minimum MCS energy level
+R_MCS_ch,125,kW,MCS charging rate
+R_MCS_dch,50,kW,MCS discharging rate
+R_MCS_plug,100,kW,MCS plug-in charging rate
+C_MCS,100,$/kWh,MCS cost per kWh
+DT,0.25,h,Time step duration
+u_road,50,km/h,Average road speed
+t_end,24,h,End time of simulation
+eta_ch_dch,0.95,-,Charging/discharging efficiency
+CH_MCS,125,kW,MCS charging rate
+DCH_MCS,125,kW,MCS discharging rate
+DCH_MCS_plug,50,kW,MCS plug-in charging rate
+C_MCS_plug,10,-,Number of plugs on MCSs
+k_trv,50,km/h,Average road speed
+rho_miss,1000,-,Large binary constant
+delta_T,0.25,h,Time step duration
+lambda_CO2,0.01,-,Default CO2 price
+lambda_buy,0.02,-,Default electricity price
+road_energy_consumption,0.5,kWh/mile,MCS road energy consumption
+num_mcs,1,-,Number of MCSs

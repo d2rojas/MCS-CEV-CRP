@@ -1,0 +1,84 @@
+Dataset name: test_dataset
+Data directory: test_dataset/csv_files
+Results directory: test_dataset/results
+Data directory exists: true
+CSV files in data directory: ["distance.csv", "ev_data.csv", "parameters.csv", "place.csv", "time_data.csv", "travel_time.csv", "work.csv"]
+
+Loading data from CSV files in directory: test_dataset/csv_files
+Using synthetic CO2 data from 'lambda_CO2' column
+Data validation completed successfully
+Data loaded successfully. Running optimization model...
+
+Starting optimization with parameters:
+Number of MCSs: 1
+Number of time periods: 48
+Number of nodes: 4
+Number of grid nodes: 2
+Number of construction sites: 2
+Number of EVs: 3
+MCS battery capacity: [1000.0] kWh
+MCS charging rate: 50.0 kW
+MCS discharging rate: 50.0 kW
+MCS plug power: 50.0 kW
+Number of plugs per MCS: 4.0
+Time interval: 0.5 hours
+
+EV Parameters:
+EV 1 - Max SOE: 100 kWh, Min SOE: 20 kWh, Initial SOE: 80 kWh
+EV 2 - Max SOE: 100 kWh, Min SOE: 20 kWh, Initial SOE: 80 kWh
+EV 3 - Max SOE: 100 kWh, Min SOE: 20 kWh, Initial SOE: 80 kWh
+
+Adding constraints...
+Adding power balance constraints...
+Adding power limits...
+Adding work constraints...
+Adding energy balance constraints...
+Adding initial and final conditions...
+Adding movement and connection constraints...
+
+Solving the model...
+
+Solution Status: OPTIMAL
+
+Final Metrics:
+Total Energy from Grid: 34.990523399912526 kWh
+Total Missed Work: 0.0 kWh
+Total Carbon Emissions Cost: 1.7495261699956275
+Total Electricity Cost: 3.4990523399912554
+
+=== ENERGY ANALYSIS ===
+Total Energy from Grid: 34.990523399912526 kWh
+Total Energy Charged (with efficiency): 33.2409972299169 kWh
+Total Energy Discharged (with efficiency): 33.2409972299169 kWh
+Net Energy Change: 0.0 kWh
+Initial MCS Energy: 500.0 kWh
+Final MCS Energy: 500.0 kWh
+Energy Efficiency: 95.0%
+✅ Energy balance verified
+
+=== POWER ANALYSIS ===
+Peak Power: 50.0 kW
+Average Power: 1.4579384749963553 kW
+Duty Cycle: 6.25%
+Total Energy: 34.990523399912526 kWh
+
+=== POWER vs ENERGY EXPLANATION ===
+• Power Profile: Instantaneous power (kW) at each time step
+• Total Energy: Sum of power × time over all periods (kWh)
+• Peak Power: Maximum power during charging periods
+• Average Power: Total energy ÷ total time
+• Duty Cycle: Percentage of time spent charging
+
+Optimization completed. Results have been saved to:
+- test_dataset/results/20250830_032808/mcs_optimization_results.png (combined view)
+- test_dataset/results/20250830_032808/01_total_grid_power_profile.png + .csv
+- test_dataset/results/20250830_032808/02_work_profiles_by_site.png + .csv
+- test_dataset/results/20250830_032808/03_mcs_state_of_energy.png + .csv
+- test_dataset/results/20250830_032808/04_cev_state_of_energy.png + .csv
+- test_dataset/results/20250830_032808/05_electricity_prices.png + .csv
+- test_dataset/results/20250830_032808/06_mcs_location_trajectory.png + .csv
+- test_dataset/results/20250830_032808/07_node_map_with_cev_assignments.png
+- test_dataset/results/20250830_032808/08_optimization_summary.png
+- test_dataset/results/20250830_032808/mcs_1_power_profile.png + .csv
+- test_dataset/results/20250830_032808/optimization_log.txt
+- test_dataset/results/20250830_032808/optimization_report.txt

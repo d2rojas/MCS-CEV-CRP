@@ -1,0 +1,14 @@
+Metric,Value
+Objective Value ($),11906.272013382079
+Electricity Cost ($),0.01518351800554224
+Carbon Emissions (kg CO2),0.0068298640748077535
+Total Energy Consumed (kWh),1.2862707756233644
+Energy from Grid (kWh),0.6925207756233632
+Energy for Work (kWh),0.5937500000000012
+Energy for Travel (kWh),0.0
+Work Completion (kWh),0.5937500000000012
+Missed Work (kWh),11.906250000000002
+Work Completion Percentage (%),4.75000000000001
+Solve Time (seconds),3.875385046005249
+Average Electricity Price ($/kWh),0.038292916666666656
+Average Emission Factor (kg CO2/kWh),0.012389501330753429

@@ -1,0 +1,9 @@
+[202526DD_062659] RESULTS: Optimization completed successfully
+  Objective Value: 10.785828838023008
+  Total Energy from Grid: 26.24289254993432 kWh
+  Total Missed Work: 0.0 kWh
+  Total Carbon Emissions Cost: 3.936433882490148
+  Total Electricity Cost: 6.849394955532858
+  Work Completion Percentage: 100.0%
+  Solve Time: 6.931784152984619 seconds
+  Status: /app/optimization-interface/backend/datasets/optimization_67bc1a24-bfd0-4d97-9540-64e8b44740d1/results/20251007_062657

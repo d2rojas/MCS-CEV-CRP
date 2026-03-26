@@ -1,0 +1,65 @@
+services:
+  mcs-optimization:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: mcs-cev-optimization
+    ports:
+      - "3003:3003"  # Frontend
+      - "3004:3004"  # Backend API
+    volumes:
+      # Persist data and results
+      - ../results:/app/results
+      - ../logs:/app/logs
+      # Mount uploads and datasets for persistence
+      - mcs-uploads:/app/web-interface/backend/uploads
+      - mcs-datasets:/app/web-interface/backend/datasets
+      - mcs-backend-results:/app/web-interface/backend/results
+    environment:
+      # Server Configuration
+      - PORT=3004
+      - HOST=0.0.0.0
+      - FRONTEND_URL=http://localhost:3003
+      - NODE_ENV=production
+      
+      # Julia Configuration
+      - JULIA_PATH=/usr/local/julia/bin/julia
+      - JULIA_DEPOT_PATH=/opt/julia
+      
+      # OpenAI Configuration (set via .env file)
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      
+      # Optimization Settings
+      - MAX_CONCURRENT_JOBS=3
+      - OPTIMIZATION_TIMEOUT=1800000
+      - MAX_FILE_SIZE=104857600
+      - JOB_CLEANUP_HOURS=24
+      
+      # Logging
+      - LOG_LEVEL=info
+      - LOG_FILE=/app/logs/app.log
+    env_file:
+      - ../.env
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3004/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    networks:
+      - mcs-network
+
+networks:
+  mcs-network:
+    driver: bridge
+
+volumes:
+  # Named volumes for persistent data
+  mcs-uploads:
+    driver: local
+  mcs-datasets:
+    driver: local
+  mcs-backend-results:
+    driver: local
+

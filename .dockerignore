@@ -1,0 +1,32 @@
+# Ignore large files and directories that shouldn't be in Docker context
+node_modules/
+.git/
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Ignore large data files but keep structure
+data/archives/
+data/results/
+tests/
+archive/
+
+# Ignore development files
+.env
+*.md
+!README.md
+
+# Ignore build artifacts
+dist/
+build/
+*.zip
+*.tar.gz
+
+# Keep only essential files for Docker build
+!src/
+!data/sample_datasets/
+!docker/
+!package.json
+!package-lock.json

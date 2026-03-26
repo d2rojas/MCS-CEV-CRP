@@ -1,0 +1,15 @@
+Parameter,Value,Unit,Description
+MCS_max,250,kWh,Maximum MCS battery capacity
+MCS_min,12.5,kWh,Minimum MCS battery capacity (5 percent)
+MCS_ini,250,kWh,Initial MCS battery capacity
+CH_MCS,105,kW,MCS charging power from grid
+DCH_MCS,80,kW,MCS discharging power to CEVs
+DCH_MCS_plug,40,kW,MCS discharging power per plug
+C_MCS_plug,2,-,Number of plugs per MCS
+eta_ch_dch,0.95,-,MCS charging and discharging efficiency
+delta_T,0.25,h,Time step duration
+rho_miss,100,$/kWh,Penalty for missed work (doc: ρ^miss = 100 $/kWh)
+lambda_demand,25,$/kW,Demand charge (doc: λ^dc = 25 $/kW)
+carbon_price_per_ton,50,$/metric ton,Social cost of carbon (doc: $50 per metric ton CO2)
+num_mcs,1,-,Number of MCSs Scenario 1
+k_way,0.5,kWh/mile,MCS road energy consumption rate per mile (doc Table 2)

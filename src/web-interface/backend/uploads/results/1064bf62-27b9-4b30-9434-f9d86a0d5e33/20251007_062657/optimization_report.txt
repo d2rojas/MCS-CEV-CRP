@@ -1,0 +1,118 @@
+MCS-CEV Optimization Report - 202526DD_062659
+========================================
+
+--- Summary Metrics ---
+Objective Value: 10.79
+Total Energy from Grid: 26.24 kWh
+Total Missed Work: 0.00 kWh
+Total Carbon Emissions Cost: 3.94
+Total Electricity Cost: 6.85
+Work Completion Percentage: 100.00%
+Solve Time: 6.93 seconds
+
+--- MCS Locations ---
+  MCS 1:
+    Time 5: Grid Node 1
+    Time 56: Grid Node 1
+    Time 35: Grid Node 1
+    Time 55: Grid Node 1
+    Time 60: Grid Node 1
+    Time 30: Construction Site 2
+    Time 32: Construction Site 2
+    Time 6: Grid Node 1
+    Time 67: Grid Node 1
+    Time 45: Grid Node 1
+    Time 73: Construction Site 2
+    Time 64: Grid Node 1
+    Time 90: Grid Node 1
+    Time 4: Grid Node 1
+    Time 13: Grid Node 1
+    Time 54: Grid Node 1
+    Time 63: Grid Node 1
+    Time 86: Grid Node 1
+    Time 91: Grid Node 1
+    Time 62: Grid Node 1
+    Time 58: Grid Node 1
+    Time 52: Grid Node 1
+    Time 12: Grid Node 1
+    Time 28: Construction Site 2
+    Time 75: Construction Site 2
+    Time 23: Grid Node 1
+    Time 92: Grid Node 1
+    Time 41: Grid Node 1
+    Time 43: Grid Node 1
+    Time 11: Grid Node 1
+    Time 36: Grid Node 1
+    Time 68: Grid Node 1
+    Time 69: Construction Site 2
+    Time 82: Construction Site 2
+    Time 85: Grid Node 1
+    Time 39: Grid Node 1
+    Time 84: Construction Site 2
+    Time 77: Construction Site 2
+    Time 7: Grid Node 1
+    Time 25: Construction Site 2
+    Time 95: Grid Node 1
+    Time 71: Construction Site 2
+    Time 66: Grid Node 1
+    Time 76: Construction Site 2
+    Time 34: Grid Node 1
+    Time 50: Grid Node 1
+    Time 59: Grid Node 1
+    Time 93: Grid Node 1
+    Time 2: Grid Node 1
+    Time 10: Grid Node 1
+    Time 18: Grid Node 1
+    Time 26: Construction Site 2
+    Time 27: Construction Site 2
+    Time 42: Grid Node 1
+    Time 87: Grid Node 1
+    Time 79: Construction Site 2
+    Time 16: Grid Node 1
+    Time 20: Grid Node 1
+    Time 81: Construction Site 2
+    Time 19: Grid Node 1
+    Time 49: Grid Node 1
+    Time 44: Grid Node 1
+    Time 9: Grid Node 1
+    Time 31: Construction Site 2
+    Time 74: Construction Site 2
+    Time 61: Grid Node 1
+    Time 29: Construction Site 2
+    Time 94: Grid Node 1
+    Time 46: Grid Node 1
+    Time 57: Grid Node 1
+    Time 70: Construction Site 2
+    Time 21: Grid Node 1
+    Time 38: Grid Node 1
+    Time 88: Grid Node 1
+    Time 78: Construction Site 2
+    Time 72: Construction Site 2
+    Time 24: Grid Node 1
+    Time 8: Grid Node 1
+    Time 17: Grid Node 1
+    Time 37: Grid Node 1
+    Time 1: Grid Node 1
+    Time 53: Grid Node 1
+    Time 22: Grid Node 1
+    Time 47: Grid Node 1
+    Time 83: Construction Site 2
+    Time 89: Grid Node 1
+    Time 14: Grid Node 1
+    Time 3: Grid Node 1
+    Time 80: Construction Site 2
+    Time 96: Grid Node 1
+    Time 51: Grid Node 1
+    Time 33: Grid Node 1
+    Time 40: Grid Node 1
+    Time 48: Grid Node 1
+    Time 15: Grid Node 1
+    Time 65: Grid Node 1
+
+--- MCS Routes ---
+  MCS 1: 0 routes
+
+--- CEV Charging ---
+  MCS 1: 24 charging events
+
+Report generated at 2025-10-07T06:26:59.150
