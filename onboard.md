@@ -1,16 +1,4 @@
-# MCS-CEV Optimization System - Team Onboarding
-
-**Repository:** https://github.com/d2rojas/MCS-CEV-CRP
-**Status:** ✅ Ready for Production Deployment
-**Date:** March 26, 2026
-
----
-
-## 🎉 Welcome to the Team!
-
-This document will help you get started with the MCS-CEV Optimization System. The project is production-ready and can be deployed to the university server using Docker.
-
----
+# MCS-CEV Optimization System -  Onboarding
 
 ## 📋 Quick Links
 
@@ -102,7 +90,7 @@ The MCS-CEV Optimization System helps optimize the operation of **Mobile Chargin
 
 ---
 
-## 🐳 Docker Deployment (Recommended for University Server)
+## 🐳 Docker Deployment 
 
 ### Prerequisites
 
@@ -496,7 +484,7 @@ If you encounter bugs or have questions:
 
 ## ✅ Pre-Deployment Checklist
 
-Before deploying to university server, verify:
+Before deploying to server, verify:
 
 - [ ] Docker and Docker Compose installed
 - [ ] Ports 3003 and 3004 available
@@ -536,7 +524,7 @@ Before deploying to university server, verify:
 
 ---
 
-## 🎓 University Server Deployment Workflow
+## 🎓  Server Deployment Workflow
 
 ### Phase 1: Local Testing (Your Machine)
 1. Clone repo: `git clone https://github.com/d2rojas/MCS-CEV-CRP.git`
@@ -621,8 +609,6 @@ The MCS-CEV Optimization System is now ready for deployment. Follow the quick st
 - ✅ Sample datasets included for testing
 - ✅ Comprehensive documentation available
 - ✅ Production-ready and tested
-
-**Happy Optimizing!** 🚛⚡🏗️
 
 ---
 

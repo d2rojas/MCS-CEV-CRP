@@ -1,7 +1,6 @@
 # MCS-CEV Optimization - Docker Deployment Guide
 
 **Version:** 1.0
-**Target:** University server deployment
 **Date:** March 26, 2026
 
 ---
