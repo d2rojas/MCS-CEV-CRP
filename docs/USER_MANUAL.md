@@ -713,11 +713,13 @@ AI: "The optimizer schedules charging at 2 AM because:
 
 ### Chat Features
 
-**Multi-Agent System:**
-- **Understanding Agent:** Interprets your natural language input
-- **Validation Agent:** Checks data consistency and identifies errors
-- **Recommendation Agent:** Suggests parameter values and best practices
+**Prompt Orchestration System:**
+- **Understanding Prompt:** Interprets your natural language input
+- **Validation Prompt:** Checks data consistency and identifies errors
+- **Recommendation Prompt:** Suggests parameter values and best practices
 - **Conversation Manager:** Generates helpful, context-aware responses
+
+*Note: See [AI Architecture Assessment](AI_ARCHITECTURE_ASSESSMENT.md) for technical details on the prompt-based orchestration system.*
 
 **Context Awareness:**
 - Knows which step you're on

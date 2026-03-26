@@ -87,7 +87,7 @@ The MCS-CEV Optimization System helps optimize the operation of **Mobile Chargin
 │  │                 │  │  • Express API           │   │
 │  │  • Wizard UI    │  │  • WebSocket             │   │
 │  │  • AI Chat      │  │  • Julia spawner         │   │
-│  │  • Results View │  │  • Multi-agent AI        │   │
+│  │  • Results View │  │  • Prompt orchestration  │   │
 │  └─────────────────┘  └──────────────────────────┘   │
 │                              │                         │
 │                              ▼                         │

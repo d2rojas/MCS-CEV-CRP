@@ -7,12 +7,12 @@
 
 ## 🎯 Overview
 
-A comprehensive optimization system for **Mobile Charging Stations (MCS)** and **Construction Electric Vehicles (CEV)**. This system combines advanced mathematical optimization with an intelligent web interface powered by AI multi-agent architecture.
+A comprehensive optimization system for **Mobile Charging Stations (MCS)** and **Construction Electric Vehicles (CEV)**. This system combines advanced mathematical optimization with an intelligent web interface powered by LLM-based prompt orchestration.
 
 ### Key Features
 
 - 🧮 **Mathematical Optimization**: Julia-based optimization model using JuMP and HiGHS
-- 🤖 **AI-Powered Interface**: Multi-agent system with natural language processing
+- 🤖 **AI-Powered Interface**: LLM-powered prompt orchestration with natural language processing
 - 🌐 **Web Application**: React frontend with Node.js backend
 - 🐳 **Docker Ready**: Complete containerization for easy deployment
 - 📊 **Data Visualization**: Comprehensive analysis and reporting tools
@@ -27,8 +27,8 @@ A comprehensive optimization system for **Mobile Charging Stations (MCS)** and *
                               │
                               ▼
                     ┌──────────────────┐
-                    │ AI Multi-Agent   │
-                    │   System         │
+                    │ LLM Orchestrator │
+                    │ (ReAct Pattern)  │
                     └──────────────────┘
 ```
 
@@ -157,7 +157,7 @@ docker-compose -f docker/docker-compose.yml down
 - ✅ **Complete System** - Frontend + Backend + Julia optimization engine
 - ✅ **Julia 1.11.6** - Stable and compatible version with all packages
 - ✅ **Universal Compatibility** - Works on Mac ARM64 and PC x86_64
-- ✅ **AI Multi-Agent System** - 10 specialized AI agents
+- ✅ **AI-Powered Assistance** - LLM orchestration with specialized prompts
 - ✅ **Production Ready** - Optimized for deployment
 - ✅ **Easy Setup** - One-command startup with `./docker-start.sh`
 
@@ -167,7 +167,7 @@ docker-compose -f docker/docker-compose.yml down
 - Julia Optimization Engine (v1.11.6)
 - All mathematical solvers (HiGHS, GLPK, Cbc, Clp, Ipopt)
 - Data visualization tools (Plots, StatsPlots, GR)
-- AI multi-agent system
+- AI prompt orchestration system
 - Persistent data storage
 
 **Quick Test:**
@@ -183,14 +183,16 @@ curl http://localhost:3004/api/health
 open http://localhost:3003
 ```
 
-## 🤖 AI Multi-Agent System
+## 🤖 AI-Powered Assistance
 
-The system features an advanced AI multi-agent architecture:
+The system features LLM-powered prompt orchestration using ReAct pattern:
 
-- **Understanding Agent**: Extracts parameters from natural language
-- **Validation Agent**: Ensures data consistency and quality
-- **Recommendation Agent**: Provides intelligent suggestions
-- **Conversation Agent**: Manages user interaction flow
+- **Understanding Prompt**: Extracts parameters from natural language
+- **Validation Prompt**: Ensures data consistency and quality
+- **Recommendation Prompt**: Provides intelligent suggestions
+- **Conversation Manager**: Generates natural language responses
+
+See [AI Architecture Assessment](docs/AI_ARCHITECTURE_ASSESSMENT.md) for technical details.
 
 ## 📊 Optimization Model
 
@@ -224,7 +226,8 @@ JULIA_PATH=/path/to/julia
 - [Docker details](docs/README-Docker.md) – Docker instructions
 - [AWS deployment](docs/AWS-DEPLOYMENT-GUIDE.md)
 - [Julia download fix](docs/JULIA_DOWNLOAD_FIX.md) – if Julia install fails
-- [AI agents & prompts](src/web-interface/backend/prompts/README.md) – multi-agent system
+- [AI prompts & orchestration](src/web-interface/backend/prompts/README.md) – prompt-based system
+- [AI Architecture Assessment](docs/AI_ARCHITECTURE_ASSESSMENT.md) – technical architecture details
 - [Deployment scripts](deployment/) – deployment configs
 
 ## 🧪 Testing

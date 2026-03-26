@@ -82,7 +82,7 @@ The Docker container includes:
 
 - ✅ **Complete Web Application** (React Frontend + Node.js Backend)
 - ✅ **Julia Optimization Engine** (v1.11.6 with all required packages)
-- ✅ **AI Multi-Agent System** (10 specialized AI agents)
+- ✅ **AI-Powered Assistance** (LLM orchestration with specialized prompts)
 - ✅ **Mathematical Solvers** (HiGHS, GLPK, Cbc, Clp, Ipopt)
 - ✅ **Data Visualization** (Plots, StatsPlots, GR)
 - ✅ **All Dependencies** (Pre-installed and precompiled)
